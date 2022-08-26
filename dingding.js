@@ -208,6 +208,8 @@ function fillClock(){
 
     // 找到获取定位
     //gesture(1000, [540, 1500], [540, 1011]);
+    gesture(500, [540, 1000], [540, 500]);
+    sleep(500);
     var hq = className("android.view.View").text("获取").findOne();
     if (hq) {
         log("开始获取定位");
