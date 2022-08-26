@@ -208,7 +208,9 @@ function fillClock(){
 
     // 找到获取定位
     //gesture(1000, [540, 1500], [540, 1011]);
-    gesture(500, [540, 1000], [540, 500]);
+    
+    gesture(500, [540, 1200], [540, 500]);
+ 
     sleep(500);
     var hq = className("android.view.View").text("获取").findOne();
     if (hq) {
@@ -230,11 +232,11 @@ function fillClock(){
     // }
     //没办法，点不了。只能手点 
 
-    gesture(500, [540, 1900], [540, 100]);
+    gesture(500, [540, 900], [540, 100]);
     sleep(500);
-    gesture(500, [540, 1900], [540, 100]);
+    gesture(500, [540, 900], [540, 100]);
     sleep(500);
-    gesture(500, [540, 1900], [540, 100]);
+    gesture(500, [540, 900], [540, 100]);
 
     var mWidth = device.width / 2;
     var mHeight = device.height - 150;
